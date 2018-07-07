@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvc>
+	<module>
+		<name>login</name>
+		<model>model.UserBean</model>
+		<ctrl>controller.Login</ctrl>
+		<view>/WEB-INF/classes/views/login.jsp</view>
+		<map>/login</map>
+	</module>
+	<module>
+		<name>registration</name>
+		<model>model.UserBean</model>
+		<ctrl>controller.Registration</ctrl>
+		<view>/WEB-INF/classes/views/registration.jsp</view>
+		<map>/registration</map>
+	</module>
+	<module>
+		<name>home</name>
+		<model></model>		
+		<ctrl>controller.Home</ctrl>
+		<view>/WEB-INF/classes/views/home.jsp</view>
+		<map>/home</map>
+	</module>
+	<module>
+		<name>logout</name>
+		<model></model>		
+		<ctrl>controller.Logout</ctrl>
+		<view></view>
+		<map>/logout</map>
+	</module>
+</mvc>
